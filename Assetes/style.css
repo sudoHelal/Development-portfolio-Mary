@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+    font-family: "Open Sans";
+}
+header{
+  background-color: rgb(255, 248, 243);
+  background-image: url("../Assetes/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/* Navbar styles */
+.nav-container {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.nav-title{
+  font-size: 45px;
+  font-family: "Open Sans";
+  font-weight: 800;
+}
+.nav-container ul{
+
+  display: flex;
+  align-items: center;
+  
+}
+.nav-container ul li{
+  margin-right: 20px;
+  list-style: none;
+
+}
+.nav-container ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(71, 71, 71);
+}
+.btn-hire-me{
+  padding: 18px 35px;
+  border-radius: 5px;
+  color: white;
+  background: rgb(253, 110, 10);
+  border: none;
+  font-size: 20px;
+
+}
+.banner{
+
+  background-image: url("../Assetes/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position:right bottom;
+  display: flex;
+
+}
+.banner-text{
+  
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Styles for Mobile */
+
+@media  (max-width: 576px){
+  .nav-container{
+    flex-direction: column;
+  }
+  .nav-container ul{
+    flex-direction: column;
+  }
+  .btn-hire-me{
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-top: 11px;
+  
+  }
+}
