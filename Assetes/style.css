@@ -11,6 +11,10 @@ header{
   background-image: url("../Assetes/images/developer.png");
   background-repeat: no-repeat;
   background-position: left;
+  background-image: url("../Assetes/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position:right bottom;
+
 }
 
 /* Navbar styles */
@@ -55,16 +59,60 @@ header{
 
 }
 .banner{
-
-  background-image: url("../Assetes/images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position:right bottom;
+  padding: 50px 140px 0px 330px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
 .banner-text{
+  max-width: 500px;
+}
+.banner-intro{
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
   
 }
+.banner-title{
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+
+}
+.banner-description{
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-download{
+  padding: 19px 17px 18px 17px;
+  background: rgb(253, 110, 10);
+  border-radius: 5px;
+  border: 0px;
+  font-size: 20px;
+}
+.btn-contact{
+  padding: 19px 17px 18px 17px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid rgb(253, 110, 10);
+  font-size: 20px;
+  margin-left: 5px;
+}
+.btn-download-contact{
+  margin-top: 10px;
+}
+.banner-pic{
+  width: 500px;
+  margin-bottom: -6px;
+}
+
+
+
+
+
+
 
 
 
