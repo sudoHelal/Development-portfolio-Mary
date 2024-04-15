@@ -81,6 +81,7 @@ header {
   border-radius: 5px;
   border: 0px;
   font-size: 20px;
+  color: white;
 }
 .btn-contact {
   padding: 19px 17px 18px 17px;
@@ -89,6 +90,7 @@ header {
   border: 1px solid rgb(253, 110, 10);
   font-size: 20px;
   margin-left: 5px;
+  color: rgb(253, 110, 10);
 }
 .btn-download-contact {
   margin-top: 10px;
@@ -205,6 +207,11 @@ main {
 }
 .resume-item hr{
   color:  rgb(209, 209, 209);
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 115px;
 }
 
 
